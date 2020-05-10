@@ -1,0 +1,7 @@
+What advantages are there to a language-processing system in whcih the
+compiler produces assembly language rather than machine language?
+
+This is useful for several reasons, 1) we can have some "division of labor".
+We can allow a dedicated assembler to deal with the problems of expanding
+assembly. 2) Assembly tends to be more useful to the programmer, as it is much
+easier to debug then assembled machine code.

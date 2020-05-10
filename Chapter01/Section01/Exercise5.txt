@@ -1,0 +1,5 @@
+Describe some of the tasks that an assembler needs to perform
+
+An assembler should resolve all labels to addresses, map all intructions to
+binary machine code (or HEX machine code more likely), and expand all
+psuedo-instructions if the language has them.

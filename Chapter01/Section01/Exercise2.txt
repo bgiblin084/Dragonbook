@@ -1,0 +1,7 @@
+What are the advantages of (a) a compiler over an intepreter and (b) an
+interpreter over a compiler?
+
+Compilers allow for faster code execution, because at compile time we can
+complete optimization. Interpreters have the advantage of more verbose output,
+as have more control visibility into the execution at run time making for more
+verbose and perhaps more usefull error outputs.

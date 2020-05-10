@@ -1,0 +1,10 @@
+A compiler that translates a high-level language into another high-level
+language is called a source to source translator. What advantages are there to
+using C as a taget language for a compiler.
+
+C is great because it has extremely wide support. Compiler exist that compile
+C down to just about every platform out there, from AMD64 to ARM64 to MIPS and
+everything in between. So, this would considerably save time on developing a
+compiler as we would have to deal with a single input mapping to a single
+output, and can ignore problems like multi-platform support and let the C
+compiler handle that.

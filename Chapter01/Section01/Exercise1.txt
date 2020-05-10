@@ -1,0 +1,8 @@
+What is the difference between a compiler and an interpreter?
+
+The difference between a compiler and an interpreter is that a compiler
+converts a source program into a target program immediately, at compile time. 
+Conversely, an interpreter will execute a program line by line at run time,
+allowing for more real time feedback from the interpreter as opposed to a
+compiled program. A compiled program will typically have faster execution time
+as the program has gone through layers of optimization.
