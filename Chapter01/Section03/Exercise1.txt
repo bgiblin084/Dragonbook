@@ -1,0 +1,20 @@
+Indicate which of the following terms: 
+a) imperitive	b)declarative	c) Von Neumann
+d) Object-oriented	e) Functional f) Third Generation
+g) Fourth-Generation h) Scripting
+
+apply to which of the following languages:
+1) C	2) C++	3) Cobol	4) Fortran	5) Java
+6) Lisp	7) ML	8) PERL		9) Python	10) VB
+
+
+C: Imperative, Von Neumann, Third-Generation
+C++: Imperative, Von Neumann, Object Oriented, Third-generation
+Cobol: Imperative, Von Neumann, (can be) object oriented, third-generation
+Fortran: Imperative, Von Neumann, Third-generation
+Java: Imperative, Von Neumann, Third-Generation, Object Oriented
+Lisp: Imperative, Von Neumann, Third-Generation
+ML: Declarative, Von Nuemann, third-generation, Functional
+Perl: Scripting
+VB: Fourth generation
+
