@@ -1,0 +1,14 @@
+Which of the grammars are ambigous?
+
+a) S -> 0 S 1 | 0 1
+b) S -> + S S | - S S | a
+c) S -> S (S) S | î
+d) S -> a S b S | b S a S | î
+e) S -> a | S + S | S S | S * | (S)
+
+a) Not ambigous
+b) Ambigous
+c) Ambigous
+d) Ambigous
+e) Ambigous
+

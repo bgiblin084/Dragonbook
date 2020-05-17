@@ -1,0 +1,35 @@
+Construct unambigous context-free grammars for each of the following
+languages. In each chase, show that your grammar is correct.
+
+a) Arithmetic expressions in postfix notation
+b) Left-associative lists of identifier seperated by commas
+c) Right-associative lists of identifiers seperated by commas
+d) Arithmetic expressions of integers and identifiers with the four binary
+operators +, -, *, /
+
+a) expr -> expr expr op | digit
+   op   -> + | - | * | /
+   digit -> 0 | 1 | ... | 9
+
+   This is correct because for an arbitrary postfix expression there exists
+only one parse tree. EX -> 4 8 + 2 * has only the following parse tree
+                            expr
+                          /   |   \
+                      expr   expr  *
+                     /  |  \    |  
+                 expr  expr +  2
+                  |     |
+                  4     8
+                 
+b) list -> ID, list | ID
+c) list -> list, ID | ID
+d) expr -> expr + term | expr - term | term
+   term -> term * factor | term / factor | factor
+   factor -> digit | (expr) | id
+   digit -> 0 | 1 | 2 | ... | 9
+e) expr -> expr + term | expr - term | term
+   term -> term * unary | term / unary | factor
+   factor -> digit | (expr) | id
+   unary -> - factor | + factor | factor
+   digit -> 0 | 1 | 2 | ... | 9
+
